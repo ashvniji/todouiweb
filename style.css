@@ -1,0 +1,318 @@
+body
+{
+    background:#d6d5d5;
+    height: 1000px;
+}
+.blur
+{
+    filter: blur(1px);
+}
+.task
+{
+    background-color:white ;
+    font-size: 40px;
+    font-weight: bolder;
+    width: 100%;
+    height: 45px;
+}
+.up
+{
+    color: #00A5EC;
+}
+.ap
+{
+    position: relative;
+    left: 103px;
+}
+.plus
+{
+    border: 0px solid;
+    background-color: #00A5EC;
+    border-radius: 50%;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-decoration: none;
+    color: aliceblue;
+    position:absolute;
+    top: 90px;
+    left: 1060px;
+}
+.new
+{
+    color: #424242;
+    font-size: x-large;
+    text-decoration: none;
+    position:absolute;
+    top: 100px;
+    left: 1100px;
+}
+.first
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+.box1
+{ 
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    top: 120px;
+}
+.box1:hover
+{
+    box-shadow: 1px 1px 5px gray;
+    cursor:pointer;
+}
+.head, .visit,.shop, input
+{
+    position: relative;
+    left: 20px;
+    font-size: 20px;
+}
+.visit
+{
+    text-decoration: line-through;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    opacity: 1;
+    color: #C2C2C2;
+}
+.head, a
+{
+    color: #00A5EC;
+    text-decoration: none;
+}
+.second
+{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 170px;
+    left: 50px;
+}
+.box2
+{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    opacity: 1;
+    width: 250px;
+    height: 250px;
+}
+.box2:hover
+{
+    box-shadow: 1px 1px 5px gray;
+    cursor:pointer;
+}
+.watch
+{
+    position: relative;
+    right: 350px;
+}
+.btn
+{
+    background-color:#4bbcec;
+    line-height: 10px;
+    width: 150px;
+    height: 40px;
+    position: relative;
+    left: 250px;
+    top: 10px;
+    color: #EDEDED;
+    font-size: 15px;
+    border: none;
+}
+.btn:hover
+{
+    cursor: pointer;
+}
+.add_task
+{
+    line-height: 10px;
+    margin: auto;
+    background: #FFFFFF 0% 0%;
+    box-shadow: 0px 0px 20px #67676729;
+    border: 1px solid #EDEDED;
+    border-radius: 10px;
+    width: 420px;
+    height: 170px;
+    opacity: 1;   
+    position: relative;
+    bottom: 270px ; 
+}
+.text
+{
+    align-items: center;
+    width: 340px;
+    height: 30px;
+    background-color: rgb(208, 204, 204);
+}
+.ab
+{
+    font-size: 21px;
+    color: #404040;
+}
+.f1
+{
+    display: flex;   
+    position: relative;
+    left: 20px;
+}
+#close
+{
+    position: relative;
+    top: 24px;
+    left: 240px;
+    /* border: none;
+    text-decoration:#C2C2C2; */
+    color: #404040;
+    width: 25px;
+    height: 25px;
+}
+.add_task:hover
+{
+    box-shadow: 1px 1px 100px 0px gray;
+}
+.b0x
+{
+    border: 0px solid ;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 150px;
+    right: 280px;
+    margin-top: 20px;
+}
+.b0x:hover
+{
+    box-shadow: 1px 1px 5px ;
+}
+.container2
+{
+    position: relative;
+    right: 280px;
+}
+.arrow
+{
+    border: 0px solid;
+    background-color: black;
+    color: #EDEDED;
+    font-size: 15px;
+    border-radius: 50%;
+    padding: 7px;
+    margin: 3px;
+}
+.back
+{
+    color: black;
+    font-size: larger;
+}
+.backbtn
+{
+    position: relative;
+    top: 110px;
+    left: 130px;
+}
+.add_new_trip
+{
+    border: 0px solid;
+    border-radius: 15px;
+    background-color: rgb(233, 225, 225);
+    width: 430px;
+    height: 200px;
+    position: absolute;
+    top: 200px;
+    left: 530px;
+    margin: auto;
+}
+.add_new_trip:hover
+{
+    box-shadow: 1px 1px 100px 0px gray;   
+}
+@media screen and (min-width: 300px) and (max-width:380px)
+{
+    /* *
+    {
+        padding: 0;
+        margin: 0;
+    } */
+    .new
+    {
+        display: none;
+    }
+    .plus
+    {
+        position:relative;
+        top: 55px;
+        left: 80px;
+    }
+    
+    .first
+    {
+        flex-direction: column;
+        justify-content: center;
+        justify-items: center;
+        margin-left: 50px;
+        row-gap: 20px;
+    }
+    .ap
+    {
+        position: relative;
+        left: 13px;
+    }
+    
+    .boxhide
+    {
+        display: none;
+    }
+    .second
+    {
+        flex-direction: column;
+        top: 140px;
+        left: 52px;
+    }
+    .box1, .box2
+    {
+        width: 220px;
+        height: 240px;
+    }
+    
+    .add_task
+    {
+        left: 0px ;
+        width: 270px ;
+        bottom: 1070px;
+    }
+    .text
+    {
+        width: 230px;
+        height: 15px;
+    }
+    #close, .btn
+    {
+        left: 80px;
+    }
+    .container2
+    {
+        left: 0px;
+    }
+    .b0x
+    {
+        width: 300px;
+        height: 300px;
+        left: 20px;
+        top: 110px;
+    }
+    
+    .backbtn
+    {
+        top: 10px;
+        left: -20px;
+    }
+}
